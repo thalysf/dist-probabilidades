@@ -126,6 +126,7 @@ caption{
     }
     h1.title2{
         font-size: 1.1rem;
-        color: #3d3b3b;
+        color: #383535;
+        text-shadow: 1px 1px 40px rgba(16, 48, 16, 0.808);
     }
 }
