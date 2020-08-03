@@ -114,3 +114,17 @@ caption{
     opacity: 80%;
     color: #181618f6;
 }
+@media(max-width: 494px)
+{
+    input#xi, input#p-xi{
+        text-align: center;
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+    label{
+        display: none;
+    }
+    h1.title2{
+        font-size: 1.1rem;
+    }
+}
