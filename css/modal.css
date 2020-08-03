@@ -90,7 +90,6 @@ i:hover{
 @media(max-width: 494px)
 {
     .modal__content {
-        min-width: 300px;
-        
+        min-width: 310px;
     }
 }
