@@ -1,0 +1,11 @@
+*{
+    font-family: 'Recursive', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: normal;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+}

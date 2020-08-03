@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dist-normal.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="https://kit.fontawesome.com/d0aebddfaf.js" crossorigin="anonymous"></script>
+    <title>Distribuição de Probabilidades - Normal</title>
+</head>
+<body>
+    <h1 class="title">Distribuição Normal</h1>
+    <div class="area-dist" id="#area">
+        <div class="area-insere">
+            <h1 class="title2">Insira as colunas</h1>
+            <form action="#">
+                <label for="xi">Xi:</label>
+                <input type="number" id="xi">
+                <label for="p-xi">Prob(Xi):</label>
+                <input type="number" id="p-xi">
+                <input type="submit" value="Inserir" id="btn-insere">
+                <a href="#" id="btn-finaliza">Finalizar</a>
+                <input type="button" value="Apagar" id="btn-apaga">
+            </form>
+            <div id="erros"></div>
+        </div>
+        <div class="oculta" id="area-table">
+            <table id="table">
+                <caption>Tabela de Distribuição de Probabilidades</caption>
+                <thead id="table-h">
+                    <tr>
+                        <th colspan="2">Distribuição</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <th>X(Xi)</th>
+                    <th>P(XI)</th>
+                </tr>
+                <tbody id="table-b">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <a href="index.html" class="icon-link"><i class="fas fa-home"></i></a>
+
+    <div class="modal" id="modal" tabindex="-1">
+        <a href="#" class="modal__overlay" aria-label="Fechar"></a>
+    <div class="modal__content">
+        <a href="#" class="modal__close" aria-label="Fechar"><i class="fas fa-times"></i></a>
+    <div id="modal-conteudo">
+        <h2 class="titleModal">Resultados</h2>
+        <p>Valor Esperado: <span id="v-e"></span></p>
+        <p>Variância: <span id="var"></span></p>
+        <p>Desvio Padrão: <span id="dp"></span> </p>
+    </div>
+    <script src="js/dist-normal.js"></script>
+</body>
+</html>

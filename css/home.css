@@ -1,0 +1,88 @@
+div.intro p{
+    font-size: 0.8rem;
+    letter-spacing: 0.2px;
+    line-height: 1.1rem;
+    text-align: justify;
+    text-indent: 30px;
+}
+section{
+    margin: 50px auto;
+}
+hr{
+    width: 95%;
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+    color: rgba(84, 170, 4, 0.726);
+    transition: .1s;
+}
+a:hover{
+    color: rgb(84, 170, 4);
+    text-shadow: 1px 0.5px 10px rgba(150, 224, 38, 0.911);
+}
+div.label-dist{
+    background-color: #fff;
+    min-width: 50%;
+    max-width: 60%;
+    margin: auto;
+    height: 400px;
+    border: 2px solid #c7c7f1;
+    padding: 1.2rem;
+    border-radius: .25rem;
+    box-shadow: 5px 5px 20px 5px #aca7a756;
+}
+
+.main-title{
+    text-align: center;
+    text-shadow: 0px 5px 4px #41c70327;
+    margin-bottom: 10px;
+}
+.secondary-title{
+    margin: 10px;
+    text-align: center;
+    text-shadow: 0px 5px 4px #d6c9c971;
+
+}
+.main-title::after{
+    content: "";
+    width: 15%;
+    position: absolute;
+    top: 40px;
+    border-bottom: 1.5px solid rgb(75, 70, 70);
+    left: 42%;
+    opacity: 70%;
+}
+a.btn{
+    display: inline-block;
+    background-color: initial;
+    width: 40%;
+    border: 1.5px solid rgba(84, 170, 4, 0.877);
+    padding: 5px;
+    height: 2.5rem;
+    font-weight: bolder;
+    color: #4b4545;
+    border-radius: .25rem;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: .2s;
+    outline: none;
+    text-align: center;
+    line-height: 25px;
+}
+a.btn:hover{
+    background-color: rgb(106, 190, 106);
+    color: #FFF;
+    opacity: 90%;
+}
+div.ops{
+    padding: 0;
+    padding: 5px;
+}
+a#btn-normal-dist{
+   margin-left: 6%;
+}
+a#btn-binomial-dist{
+    margin-left: 6%;
+}

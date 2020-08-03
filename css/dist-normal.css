@@ -1,0 +1,116 @@
+div.area-dist{
+    position: relative;
+    width: 60%;
+    height: 400px;
+    border: 2px solid #f2f2f2;
+    background-color: #acff2fec;
+    border: 1.5px solid #e4aa17;
+    margin: 2% auto;
+    border-radius: .25rem;
+    padding: 10px;
+    overflow: scroll;
+}
+div.area-insere{
+    text-align: center;
+}
+.title{
+    margin-top: 2%;
+    color: #3d3b3b;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-align: center;
+}
+.title::after{
+    content: "";
+    border-bottom: 1.5px solid #3d3b3b;
+    width: 16%;
+    position: absolute;
+    box-shadow: 1px 1px 1px #a8a1a198;
+    top: 65px;
+    left: 42%;
+}
+.title2{
+    margin-bottom: 8px;
+}
+#btn-finaliza{
+    text-decoration: none;
+    display: inline-block;
+}
+input, #btn-finaliza{
+    background-color: initial;
+    border: 1.5px solid #fff;
+    border-radius: .25rem;
+    outline: none;
+    width: 30%;
+    height: 26px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 2%;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+input:focus{
+    background-color: rgba(48, 43, 43, 0.089);
+}
+input[type="submit"]
+{
+    width: 15%;
+    cursor: pointer;
+    transition: .1s;
+}
+input[type="button"]{
+    margin-top: 10px;
+}
+input[type="submit"]:hover, input[type="button"]:hover
+{
+    cursor: pointer;
+    background-color: rgba(50, 190, 50, 0.39);
+    color: #FFF;
+}
+#btn-finaliza:hover{
+    transition: .2s;
+    background-color: rgba(28, 74, 199, 0.575);
+}
+input#btn-apaga:hover{
+    transition: .2s;
+    background-color: rgba(228, 22, 22, 0.671);
+}
+div#area-table{
+    padding: 10px;
+    margin: 10px;
+}
+table#table{
+    width: 100%;
+    border: 1.3px solid #f53302;
+    border-collapse: collapse;
+    text-align: center;
+}
+td, th{
+    border: 1.25px solid #e93204;
+    padding: 2.5px;
+}
+.oculta{
+    visibility: hidden;
+}
+.fa-home{
+    font-size: 2rem;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    transition: .2s;
+    color: red;
+}
+.fa-home:hover{
+    color: rgba(1, 158, 1, 0.836);
+    cursor: pointer;
+}
+#erros{
+    color: rgb(235, 45, 12);
+    text-align: center;
+    margin: 10px 0 4px 0;
+}
+caption{
+    margin: 4px 0;
+    opacity: 80%;
+    color: #181618f6;
+}
