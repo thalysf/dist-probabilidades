@@ -86,13 +86,10 @@ a#btn-normal-dist{
 a#btn-binomial-dist{
     margin-left: 6%;
 }
-@media(max-width:  764px)
+@media(max-width:  814px)
 {
     div.intro p{
         display: none;
-    }
-    a{
-        content: 'Leia sobre';
     }
     a.btn{
         font-size: 0.6rem;
