@@ -9,7 +9,6 @@ function main()
     const btnInsere = document.getElementById('btn-insere');
     const btnFinaliza = document.getElementById('btn-finaliza');
     const btnApaga = document.getElementById('btn-apaga');
-
     btnInsere.addEventListener('click', insere);
     btnFinaliza.addEventListener('click', finaliza);
     btnApaga.addEventListener('click', apaga);
@@ -23,6 +22,7 @@ function apaga(){
 }
 function insere()
 {
+    event.preventDefault();
     const xi = document.getElementById('xi');
     const p_xi = document.getElementById('p-xi');
     const table_b = document.getElementById('table-b');
