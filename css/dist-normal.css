@@ -129,4 +129,17 @@ caption{
         color: #383535;
         text-shadow: 1px 1px 40px rgba(16, 48, 16, 0.808);
     }
+    input[type="button"], a#btn-finaliza{
+        width: 28%;
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+    .modal__content {
+        min-width: 10px;
+        position: relative;
+        background-color: #f5f5f5;
+        border: 2px solid #e2ddddc4;
+        border-radius: .25rem;
+        padding: 2.5rem;
+    }
 }

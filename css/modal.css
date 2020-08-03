@@ -87,3 +87,10 @@ i:hover{
     color: rgba(233, 86, 18, 0.945);
     text-shadow: 0.5px 0.5px 45px rgb(92, 3, 3);
 }
+@media(max-width: 494px)
+{
+    .modal__content {
+        min-width: 300px;
+        
+    }
+}
