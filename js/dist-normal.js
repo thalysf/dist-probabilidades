@@ -6,6 +6,7 @@ const propriedades = {
 
 function main()
 {
+    document.getElementById('xi').focus();
     const btnInsere = document.getElementById('btn-insere');
     const btnFinaliza = document.getElementById('btn-finaliza');
     const btnApaga = document.getElementById('btn-apaga');
@@ -22,7 +23,6 @@ function apaga(){
 }
 function insere()
 {
-    event.preventDefault();
     const xi = document.getElementById('xi');
     const p_xi = document.getElementById('p-xi');
     const table_b = document.getElementById('table-b');
@@ -44,6 +44,9 @@ function insere()
         table_b.appendChild(tr);
         propriedades.xi.push(xi.value);
         propriedades.pxi.push(p_xi.value);
+        xi.focus();
+        xi.value = '';
+        p_xi.value = '';
     }
     
 }
