@@ -65,9 +65,9 @@
 }
 #modal-conteudo
 {
-    border: 1.4px solid rgba(143, 105, 25, 0.658);
+    border: 1.4px solid #377703bb;
     border-radius: .30rem;
-    padding: 2rem;
+    padding: 1.8rem;
 }
  p{
     margin-bottom: 0.8rem;
