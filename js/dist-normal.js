@@ -8,19 +8,22 @@ function main()
 {
     document.getElementById('xi').focus();
     const btnInsere = document.getElementById('btn-insere');
-    const btnFinaliza = document.getElementById('btn-finaliza');
+    const btnFinaliza = document.getElementById('btnFinaliza');
     const btnApaga = document.getElementById('btn-apaga');
     btnInsere.addEventListener('click', insere);
     btnFinaliza.addEventListener('click', finaliza);
     btnApaga.addEventListener('click', apaga);
 }
 function apaga(){
+    
     propriedades.xi = [];
     propriedades.pxi = [];
     console.log(propriedades);
     document.getElementById('table-b').innerHTML = '';
     document.getElementById('area-table').classList.add('oculta');
     document.getElementById('erros').innerHTML = '';
+    document.getElementById('xi').value ='';
+    document.getElementById('p-xi').value ='';
 }
 function insere()
 {
@@ -93,7 +96,7 @@ function finaliza()
     }
     else{
         resultados();
-        document.getElementById('btn-finaliza').setAttribute("href", "#modal");
+        document.getElementById('finaliza').setAttribute("href", "#modal");
     }
 }
 

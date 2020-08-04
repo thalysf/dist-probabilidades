@@ -20,7 +20,7 @@ function comb(n, p)
 function main()
 {
     document.getElementById('x').focus();
-    const btnFinaliza = document.getElementById('btn-finaliza');
+    const btnFinaliza = document.getElementById('btnFinaliza');
     const btnApaga = document.getElementById('btn-apaga');
     
     btnApaga.addEventListener('click', apaga);
@@ -86,7 +86,7 @@ function form_binomial()
 }
 function chamaModal(res, espe, vari, desvp)
 {
-    document.getElementById('btn-finaliza').setAttribute("href", "#modal");
+    document.getElementById('finaliza').setAttribute("href", "#modal");
     document.getElementById('prob').innerHTML = `${res} %`;
     document.getElementById('espe').innerHTML = `${espe}`;
     document.getElementById('vari').innerHTML = `${vari}`;

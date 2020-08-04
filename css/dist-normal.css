@@ -30,7 +30,7 @@ div.area-insere{
     text-decoration: none;
     display: inline-block;
 }
-input, #btn-finaliza{
+input{
     background-color: initial;
     border: 1.5px solid #fff;
     border-radius: .25rem;

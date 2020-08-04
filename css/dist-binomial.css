@@ -30,7 +30,7 @@ img#form-binomial{
         margin-top: 40px;
         margin-left: 28px;
     }
-    a#btn-finaliza, input#btn-apaga{
+    input[type="button"]{
         width: 40%;
     }
     input[type="number"]{
@@ -41,11 +41,22 @@ img#form-binomial{
         margin-bottom: 0.2rem;
     }
 }
+@media(max-width: 490px)
+{
+    input[type="button"], #btn-finaliza{
+        height: 36px;
+    }
+}
 @media (max-width: 416px)
 {
     img#form-binomial{
         height: 220px;
         
+    }
+    img#form-binomial{
+        
+        margin-top: 30px;
+        margin-left: 20px;
     }
 }
 @media (max-width: 360px)
@@ -54,8 +65,7 @@ img#form-binomial{
         
         width: 85%;
         height: 200px;
-        margin-top: 40px;
-        margin-left: 21px;
+        margin-top: 28x;
     }
 }
 @media (max-width: 290px)
