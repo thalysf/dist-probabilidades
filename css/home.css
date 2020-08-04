@@ -37,18 +37,18 @@ div.label-dist{
 
 .main-title{
     text-align: center;
-    text-shadow: 0px 5px 4px #41c70327;
+    text-shadow: 0px 5px 8px #41c70327;
     margin-bottom: 10px;
 }
 .secondary-title{
     margin: 12px 0;
     text-align: center;
-    text-shadow: 0px 5px 4px #d6c9c971;
+    text-shadow: 0px 5px 5px #d6c9c971;
     font-size: 1rem;
 }
 .intro-title{
     text-align: center;
-    text-shadow: 0px 5px 4px #d6c9c971;
+    text-shadow: 0px 5px 5px #d6c9c971;
     font-size: 1rem;
 }
 

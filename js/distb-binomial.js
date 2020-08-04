@@ -53,6 +53,12 @@ function main()
 function apaga()
 {
     limpaInputs(x, p, n);
+    x.innerHTML = ''; p.innerHTML = ''; n.innerHTML = '';
+    document.getElementById('erros').innerHTML = '';
+    document.getElementById('prob').innerHTML = '';
+    document.getElementById('espe').innerHTML = '';
+    document.getElementById('vari').innerHTML = '';
+    document.getElementById('desvp').innerHTML = '';
 }
 function form_binomial()
 {
