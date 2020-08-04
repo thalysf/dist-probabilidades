@@ -114,3 +114,21 @@ a#btn-binomial-dist{
     }
     
 }
+@media(max-width:  270px)
+{
+    .main-title{
+        font-size: 1.2rem;
+    }
+    a.btn{
+        font-size: 0.6rem;
+        line-height: 15px;
+        width: 40%;
+        height: 3rem;
+        margin: 0;
+        padding-top: 8px;
+    }
+    h3.secondary-title{
+        font-size: 0.7rem;
+    }
+    
+}
