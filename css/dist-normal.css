@@ -100,8 +100,7 @@ td, th{
 .fa-home{
     font-size: 2rem;
     position: absolute;
-    bottom: 15px;
-    right: 15px;
+    right: 5px;
     transition: .2s;
     color: red;
 }
@@ -119,6 +118,7 @@ caption{
     opacity: 80%;
     color: #b4abb4f6;
 }
+
 @media(max-width: 494px)
 {
     input#xi, input#p-xi{
@@ -149,12 +149,7 @@ caption{
     .title{
         font-size: 1.8rem;
     }
-    .fa-home{
-        font-size: 2rem;
-        position: sticky;
-        bottom: 15px;
-        right: 15px;
-        transition: .2s;
-        color: red;
+    .fa-home{ 
+        position: sticky;   
     }
 }
