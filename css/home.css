@@ -22,11 +22,13 @@ a:hover{
     text-shadow: 1px 0.5px 10px rgba(150, 224, 38, 0.911);
 }
 div.label-dist{
+    position: relative;
     background-color: #fff;
-    min-width: 50%;
-    max-width: 60%;
+    min-width: 80%;
+    max-width: 80%;
     margin: auto;
-    height: 400px;
+    min-height: 80vh;
+    max-height: 80vh;
     border: 2px solid #c7c7f1;
     padding: 1.2rem;
     border-radius: .25rem;
@@ -39,11 +41,17 @@ div.label-dist{
     margin-bottom: 10px;
 }
 .secondary-title{
-    margin: 10px;
+    margin: 12px 0;
     text-align: center;
     text-shadow: 0px 5px 4px #d6c9c971;
-
+    font-size: 1rem;
 }
+.intro-title{
+    text-align: center;
+    text-shadow: 0px 5px 4px #d6c9c971;
+    font-size: 1rem;
+}
+
 .main-title::after{
     content: "";
     width: 15%;
@@ -64,7 +72,6 @@ a.btn{
     color: #4b4545;
     border-radius: .25rem;
     font-size: 0.9rem;
-    margin-top: 5px;
     cursor: pointer;
     transition: .2s;
     outline: none;
@@ -77,7 +84,7 @@ a.btn:hover{
     opacity: 90%;
 }
 div.ops{
-    padding: 0;
+    height: 30vh;
     padding: 5px;
 }
 a#btn-normal-dist{
@@ -88,11 +95,14 @@ a#btn-binomial-dist{
 }
 @media(max-width:  814px)
 {
-    div.intro p{
+    .main-title{
+        font-size: 1.5rem;
+    }
+    div.intro p.oculta-p{
         display: none;
     }
     a.btn{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         line-height: 15px;
         width: 40%;
         height: 3rem;

@@ -1,33 +1,27 @@
 div.area-dist{
     position: relative;
-    width: 60%;
-    height: 400px;
-    border: 2px solid #f2f2f2;
-    background-color: #acff2fec;
-    border: 1.5px solid #e4aa17;
-    margin: 2% auto;
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 80vh;
+    max-height: 80vh;
+    background-color: #111111e0;
+    border: 2px solid #fff;
+    margin: 4% auto;
     border-radius: .25rem;
     padding: 10px;
     overflow: scroll;
+    color: #e9e1e1;
 }
 div.area-insere{
     text-align: center;
 }
 .title{
-    margin-top: 2%;
-    color: #3d3b3b;
+    margin-top: 3%;
+    color: #111111e0;
     letter-spacing: 1px;
+    font-size: 3rem;
     font-weight: lighter;
     text-align: center;
-}
-.title::after{
-    content: "";
-    border-bottom: 1.5px solid #3d3b3b;
-    width: 16%;
-    position: absolute;
-    box-shadow: 1px 1px 1px #a8a1a198;
-    top: 65px;
-    left: 42%;
 }
 .title2{
     margin-bottom: 8px;
@@ -48,6 +42,9 @@ input, #btn-finaliza{
     margin-right: 2%;
     padding: 5px;
     font-size: 0.9rem;
+}
+input::placeholder{
+    color: #beb3b3;
 }
 input:focus{
     background-color: rgba(48, 43, 43, 0.089);
@@ -79,14 +76,22 @@ div#area-table{
     padding: 10px;
     margin: 10px;
 }
+
 table#table{
+    color: honeydew;
     width: 100%;
-    border: 1.3px solid #f53302;
+    background-color: #00000075;
+    border: 2px solid #f2f2f2;
     border-collapse: collapse;
+    border-radius: 0.2rem;
     text-align: center;
 }
+#table-b tr:hover{
+    transition: .1s;
+    background-color: #272525dc;
+}
 td, th{
-    border: 1.25px solid #e93204;
+    border: 1.25px solid #f2f2f2;
     padding: 2.5px;
 }
 .oculta{
@@ -112,7 +117,7 @@ td, th{
 caption{
     margin: 4px 0;
     opacity: 80%;
-    color: #181618f6;
+    color: #b4abb4f6;
 }
 @media(max-width: 494px)
 {
@@ -126,7 +131,6 @@ caption{
     }
     h1.title2{
         font-size: 1.1rem;
-        color: #383535;
         text-shadow: 1px 1px 40px rgba(16, 48, 16, 0.808);
     }
     input[type="button"], a#btn-finaliza{
@@ -141,5 +145,16 @@ caption{
         border: 2px solid #e2ddddc4;
         border-radius: .25rem;
         padding: 2.5rem;
+    }
+    .title{
+        font-size: 1.8rem;
+    }
+    .fa-home{
+        font-size: 2rem;
+        position: sticky;
+        bottom: 15px;
+        right: 15px;
+        transition: .2s;
+        color: red;
     }
 }

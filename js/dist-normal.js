@@ -20,6 +20,7 @@ function apaga(){
     console.log(propriedades);
     document.getElementById('table-b').innerHTML = '';
     document.getElementById('area-table').classList.add('oculta');
+    document.getElementById('erros').innerHTML = '';
 }
 function insere()
 {
@@ -76,9 +77,7 @@ function acimade100(input_pxi)
     return 1;
 }
 function msgErro(){
-    
-    document.getElementById('btn-insere').style.borderColor = 'tomato';
-    document.getElementById('erros').innerHTML = '<em> Valores inseridos inválidos!</em>';
+    document.getElementById('erros').innerHTML = '<em> Tentativa de inserção inválida!</e>';
 }
 function reset()
 {
