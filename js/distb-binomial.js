@@ -22,8 +22,33 @@ function main()
     document.getElementById('x').focus();
     const btnFinaliza = document.getElementById('btn-finaliza');
     const btnApaga = document.getElementById('btn-apaga');
+    
     btnApaga.addEventListener('click', apaga);
     btnFinaliza.addEventListener('click', form_binomial);
+    /*
+    evento da tecla enter:
+    const inputN =  document.getElementById('n');
+    const inputX =  document.getElementById('x');
+    const inputP =  document.getElementById('p');
+    inputN.addEventListener('keyup', (e) =>{
+        if(e.keyCode === 13)
+        {
+            form_binomial();
+        }
+    });
+    inputX.addEventListener('keyup', (e) =>{
+        if(e.keyCode === 13)
+        {
+            form_binomial();
+        }
+    });
+    inputP.addEventListener('keyup', (e) =>{
+        if(e.keyCode === 13)
+        {
+            form_binomial();
+        }
+    });
+    */
 }
 function apaga()
 {
@@ -35,7 +60,7 @@ function form_binomial()
     let x = document.getElementById('x');
     let p = document.getElementById('p');
     let n = document.getElementById('n');
-    
+
     if(!valida(x.value, p.value, n.value))
     {
         document.getElementById('erros').innerHTML = 'Inputs Inválidos!';
@@ -60,6 +85,8 @@ function chamaModal(res, espe, vari, desvp)
     document.getElementById('espe').innerHTML = `${espe}`;
     document.getElementById('vari').innerHTML = `${vari}`;
     document.getElementById('desvp').innerHTML = `${desvp}`;
+    
+    
 }
 function limpaInputs(x, p, n)
 {

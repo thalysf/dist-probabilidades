@@ -30,6 +30,16 @@ img#form-binomial{
         margin-top: 40px;
         margin-left: 28px;
     }
+    a#btn-finaliza, input#btn-apaga{
+        width: 40%;
+    }
+    input[type="number"]{
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    input[type="number"]#n{
+        margin-bottom: 0.2rem;
+    }
 }
 @media (max-width: 416px)
 {
