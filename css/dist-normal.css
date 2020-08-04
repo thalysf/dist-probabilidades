@@ -72,6 +72,10 @@ input#btn-apaga:hover{
     transition: .2s;
     background-color: rgba(228, 22, 22, 0.671);
 }
+input[type="number"]:focus
+{
+    background-color: #1f1e1ec2;
+}
 div#area-table{
     padding: 10px;
     margin: 10px;
