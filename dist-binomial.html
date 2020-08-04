@@ -4,13 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/dado.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dist-normal.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/dist-binomial.css">
-    <title>Distribuição Binominal</title>
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="https://kit.fontawesome.com/d0aebddfaf.js" crossorigin="anonymous"></script>
+    <title>Distribuição de Probabilidades - Binomial</title>
 </head>
 <body>
+    <h1 class="title">Distribuição Normal</h1>
+    <div class="area-dist" id="#area">
+        <div class="area-insere">
+            <h1 class="title2">Insira os Valores da Fórmula</h1>
+            <form action="#">
+                <label for="x">X</label>
+                <input type="number" id="x" placeholder="X:" class="valores">
+                <label for="p">P</label>
+                <input type="number" id="p" placeholder="P:" class="valores">
+                <label for="n">N</label>
+                <input type="number" id="n" placeholder="N:" class="valores">
+                <a href="#" id="btn-finaliza">Finalizar</a>
+                <input type="button" value="Apagar" id="btn-apaga">
+            </form>
+            <div id="erros"></div>
+        </div>
+       <img src="img/formula-distbinomial.png" alt="Fórmula da Distribuição binomial" id="form-binomial">
+    </div>
     
+    <a href="index.html" class="link-icon"><i class="fas fa-home"></i></a>
     
+    <div class="modal" id="modal" tabindex="-1">
+        <a href="#" class="modal__overlay" aria-label="Fechar"></a>
+    <div class="modal__content">
+        <a href="#" class="modal__close" aria-label="Fechar"><i class="fas fa-times"></i></a>
+    <div id="modal-conteudo">
+        <h2 class="titleModal">Resultado</h2>
+        <p>Probabilidade: <span id="prob"></span></p>
+        <p>Esperança: <span id="espe"></span></p>
+        <p>Variância: <span id="vari"></span></p>
+        <p>Desvio Padrão: <span id="desvp"></span></p>
+    </div>
+    </div>
+    <script src="js/distb-binomial.js"></script>
 </body>
 </html>

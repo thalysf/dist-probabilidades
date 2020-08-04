@@ -1,3 +1,58 @@
-*{
-    color: navy;
+input.valores{
+    width: 25%;
+}
+img#form-binomial{
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+    height:400px;
+    margin-top: 10px;
+    margin-left: 10%;
+    border: 5px solid #f3f3f3;
+    border-radius: .25rem;
+}
+@media (max-width: 724px)
+{
+    img#form-binomial{
+        
+        height: 300px;
+        margin-top: 40px;
+        border: 5px solid #f3f3f3;
+        border-radius: .25rem;
+    }
+}
+@media (max-width: 516px)
+{
+    img#form-binomial{
+        
+        width: 85%;
+        height: 260px;
+        margin-top: 40px;
+        margin-left: 28px;
+    }
+}
+@media (max-width: 416px)
+{
+    img#form-binomial{
+        height: 220px;
+        
+    }
+}
+@media (max-width: 360px)
+{
+    img#form-binomial{
+        
+        width: 85%;
+        height: 200px;
+        margin-top: 40px;
+        margin-left: 21px;
+    }
+}
+@media (max-width: 290px)
+{
+    img#form-binomial{
+        
+        height: 160px;
+      
+    }
 }
