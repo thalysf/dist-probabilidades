@@ -26,10 +26,6 @@ div.area-insere{
 .title2{
     margin-bottom: 8px;
 }
-#btn-finaliza{
-    text-decoration: none;
-    display: inline-block;
-}
 input{
     background-color: initial;
     border: 1.5px solid #fff;
@@ -64,7 +60,7 @@ input[type="submit"]:hover, input[type="button"]:hover
     background-color: rgba(50, 190, 50, 0.39);
     color: #FFF;
 }
-#btn-finaliza:hover{
+input#btnFinaliza:hover{
     transition: .2s;
     background-color: rgba(28, 74, 199, 0.575);
 }
@@ -137,7 +133,7 @@ caption{
         font-size: 1.1rem;
         text-shadow: 1px 1px 40px rgba(16, 48, 16, 0.808);
     }
-    input[type="button"], a#btn-finaliza{
+    input[type="button"]{
         width: 28%;
         font-size: 0.7rem;
         font-weight: bold;
