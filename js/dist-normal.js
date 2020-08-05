@@ -111,7 +111,8 @@ function verifica()
         propriedades.xi[i] = Number(propriedades.xi[i]);
         somatorio += propriedades.pxi[i]/100;
     }
-    if(somatorio != 1) return 0;
+    console.log(somatorio);
+    if(somatorio.toFixed(0) != 1) return 0;
     else return 1;
 }
 function resultados(){
