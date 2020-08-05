@@ -43,7 +43,7 @@ img#form-binomial{
 }
 @media(max-width: 490px)
 {
-    input[type="button"], #btn-finaliza{
+    input[type="button"]{
         height: 36px;
     }
 }
