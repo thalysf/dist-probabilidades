@@ -13,6 +13,16 @@ function main()
     btnInsere.addEventListener('click', insere);
     btnFinaliza.addEventListener('click', finaliza);
     btnApaga.addEventListener('click', apaga);
+    
+    // Evento da tecla enter
+    const inputPxi =  document.getElementById('p-xi');
+
+    inputPxi.addEventListener('keyup', (e) =>{
+        if(e.keyCode === 13)
+        {
+            document.getElementById('btn-insere').click();
+        }
+    });
 }
 function apaga(){
     
