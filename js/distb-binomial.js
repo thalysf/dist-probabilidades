@@ -25,30 +25,16 @@ function main()
     
     btnApaga.addEventListener('click', apaga);
     btnFinaliza.addEventListener('click', form_binomial);
-    /*
-    evento da tecla enter:
+    
+     // evento da tecla enter:
     const inputN =  document.getElementById('n');
-    const inputX =  document.getElementById('x');
-    const inputP =  document.getElementById('p');
+
     inputN.addEventListener('keyup', (e) =>{
         if(e.keyCode === 13)
         {
-            form_binomial();
+            document.getElementById('btnFinaliza').click();
         }
     });
-    inputX.addEventListener('keyup', (e) =>{
-        if(e.keyCode === 13)
-        {
-            form_binomial();
-        }
-    });
-    inputP.addEventListener('keyup', (e) =>{
-        if(e.keyCode === 13)
-        {
-            form_binomial();
-        }
-    });
-    */
 }
 function apaga()
 {
