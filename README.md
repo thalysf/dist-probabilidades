@@ -1,5 +1,5 @@
 # Distribuição de Probabilidades
-<hr>
+
 Sistema de distribuição de probabilidades que conta com as seguintes funcionalidades:
 <ul>
   <li>Distribuição normal</li>
@@ -7,5 +7,5 @@ Sistema de distribuição de probabilidades que conta com as seguintes funcional
 </ul>
 
 # Site Preview
-<hr>
+
 Você poderá acessar o site clicando <a href="https://thalysf.github.io/dist-probabilidades/">aqui </a>
